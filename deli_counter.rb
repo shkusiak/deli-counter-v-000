@@ -8,7 +8,7 @@ def line(katz_deli)
     new_arr = katz_deli.map.with_index {|name, index|
       "#{index.to_i + 1}. #{name}"
     }
-    puts new_arr
+    puts new_arr.join
     #katz_deli.each_with_index.map do |name, index|
     #  array = []
     #  array.push("#{index+1}. #{name}")
