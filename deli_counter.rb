@@ -9,13 +9,6 @@ def line(katz_deli)
       "#{index.to_i + 1}. #{name}"
     }
     puts "The line is currently: #{new_arr.join(" ")}"
-    #katz_deli.each_with_index.map do |name, index|
-    #  array = []
-    #  array.push("#{index+1}. #{name}")
-    #  puts "The line is currently: #{array.join}"
-    #end
-
-    #puts katz_deli
   end
 end
 
