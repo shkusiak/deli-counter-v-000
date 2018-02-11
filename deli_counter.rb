@@ -9,7 +9,7 @@ def line(katz_deli)
       array = []
       array.push("#{index+1}. #{name}")
     end
-    
+
 #    puts "The line is currently: #{array.join}"
   end
 end
