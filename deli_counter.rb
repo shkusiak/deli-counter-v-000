@@ -5,7 +5,11 @@ def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{katz_deli.join}"
+    katz_deli.each_with_index do |name, index|
+      array = []
+      array.push("#{index}. #{name}")
+    end
+    puts "The line is currently: #{array.join}"
   end
 end
 
