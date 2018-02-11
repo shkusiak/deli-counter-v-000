@@ -15,7 +15,7 @@ def line(katz_deli)
     #  puts "The line is currently: #{array.join}"
     #end
 
-    puts katz_deli
+    #puts katz_deli
   end
 end
 
